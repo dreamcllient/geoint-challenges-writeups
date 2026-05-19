@@ -1,0 +1,9 @@
+First, I extract the metadata from the photo (specifically, an iPhone shot)
+ using ExifTool to obtain the GPS coordinates and essential investigation data.
+ Next, I pivot to the browser and use Google Maps to verify the coordinates.
+ Once the location is confirmed, I use Maltego to map out the connections based on the extracted data.
+ By analyzing the sender's username, I successfully uncovered their Instagram account, which revealed additional context:
+ the photo session was taking place with their school/university class.
+ This entire workflow was built on metadata analysis and Google Dorks—proving to be a highly
+ effective way to geolocate an image even when there are no visible landmarks to rely on.
+ This concludes the GEOINT case study.
