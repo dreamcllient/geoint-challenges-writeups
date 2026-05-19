@@ -1,2 +1,29 @@
-# geoint-challenges-writeups
-This is one of my portfolio case studies. In it, I'll tell you how to use metadata to your advantage to find all the important data for your investigation. The entire case will be in this thread!
+Markdown
+
+# GEOINT & OSINT Investigation: Case c8
+
+A step-by-step geospatial intelligence (GEOINT) and open-source intelligence (OSINT) write-up based on metadata extraction and visual verification.
+
+## Directory Structure
+
+```text
+c8/
+├── image/          # Source image/evidence to analyze
+├── visualisation/  # Maps, satellite imagery, and landmark alignments
+└── README.md       # README!.txt
+
+Objective
+
+    Extract embedded metadata from the source image.
+
+    Verify the authenticity of the data and determine the exact coordinates.
+
+    Gather additional OSINT context (date, time, environment details).
+
+Tools Used
+
+    ExifTool – For deep EXIF/metadata extraction.
+
+    Google Earth Pro / Google Maps – For satellite imagery and Street View verification.
+    
+    Maltego - for visualisation of that geoint case
